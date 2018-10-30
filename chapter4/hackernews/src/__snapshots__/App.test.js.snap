@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="page"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          onChange={[Function]}
+          type="text"
+          value="react"
+        />
+        <button
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+      <button
+        className="Boton"
+        onClick={[Function]}
+        type="button"
+      >
+         MOAR
+      </button>
+    </div>
+    <div
+      className="table"
+    />
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+  </header>
+</div>
+`;
+
+exports[`Button button 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button>
+    PABLO
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "PABLO",
+      "className": undefined,
+      "onClick": undefined,
+      "type": "button",
+    },
+    "ref": null,
+    "rendered": "PABLO",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "PABLO",
+        "className": undefined,
+        "onClick": undefined,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": "PABLO",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  type="button"
+>
+  Give Me More
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form>
+  <input
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-row"
+  >
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "40%",
+        }
+      }
+    >
+      <a>
+        1
+         
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "30%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span />
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      2
+    </span>
+    <span />
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      <span />
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        type="button"
+      >
+         Dismiss
+      </button>
+    </span>
+  </div>
+  <div
+    className="table-row"
+  >
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "40%",
+        }
+      }
+    >
+      <a>
+        2
+         
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "30%",
+        }
+      }
+    >
+      2
+    </span>
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span />
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      2
+    </span>
+    <span />
+    <span
+      style={
+        Object {
+          "paddingLeft": "15px",
+          "width": "10%",
+        }
+      }
+    >
+      <span />
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        type="button"
+      >
+         Dismiss
+      </button>
+    </span>
+  </div>
+</div>
+`;
